@@ -1,30 +1,34 @@
 package basicjava;
-class Calc
+
+class calc //  variables 
+
 {
 	int num1;
 	int num2;
 	int result;
-	
-	
-	public void perform()
+
+
+	public void perform() //  methods
 	{
-	result = num1 + num2;
+		result = num1+num2;
 	}
 }
 
 public class ObjectDemo 
+
 {
 
-	public static void main(String[] args) 
-	{	
-	
-		Calc obj = new Calc();       //know something ad does something 
+	public static void main(String[] args) {
 		
+		calc obj = new calc(); // knows something and does something
 		obj.num1 = 3;
 		obj.num2 = 5;
+		
 		obj.perform();
 		
-		System.out.println(obj.result);
+		System.out.println("result is : " + obj.result);
 		
+
 	}
+
 }

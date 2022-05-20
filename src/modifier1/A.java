@@ -3,7 +3,7 @@ package modifier1;
 public class A {
 
 	
-	protected void display() {
+	 	protected void display() {
 		
 		System.out.println("Hello");
 		

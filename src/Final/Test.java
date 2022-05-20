@@ -1,12 +1,13 @@
-package modifier1;
+package Final;
 
 public class Test {
 
 	public static void main(String[] args) 
+	
 	{
-		
-		A ob = new A();
+		University ob = new University();
 		ob.display();
+	
 
 	}
 
